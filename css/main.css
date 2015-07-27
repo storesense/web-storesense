@@ -7,7 +7,7 @@ a,a:hover,a:focus,a:active,a.active{outline:0}
 a{color:#fed136}
 a:hover,a:focus,a:active,a.active{color:#fec503}
 h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
-
+.img-centered{margin:0 auto}
 .btn-primary{color:#fff;background-color:#fed136;border-color:#fed136;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
 
 .btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active{background-color:#fed136;border-color:#fed136}
@@ -16,23 +16,61 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 
 .btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled] .btn-xl.active{background-color:#fed136;border-color:#fed136}
 
-.navbar-default{background-color:#222;border-color:transparent}
+.navbar-default{
+    background-color:#5eb5c6;
+    border-color:transparent;
+}
+
+
 .navbar-default .navbar-brand{color:#fed566;font-family:"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive}
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active{color:#fec503}
 .navbar-default .navbar-collapse{border-color:rgba(255,255,255,.02)}
-.navbar-default .navbar-toggle{background-color:#d1541a;border-color:#d1541a}
+
+/* Toggle button for menu displayed on mobile browsers */
+.navbar-default .navbar-toggle{background-color:#d1541a;border-color:#d1541a;}
 .navbar-default .navbar-toggle .icon-bar{background-color:#fff}
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:#d1541a}
-.navbar-default .nav li a{font-family:'Open Sans',sans-serif;text-transform:uppercase;font-weight:700;letter-spacing:1px;color:#20555F;font-size:20px}
+
+/* Menu line */
+.navbar-default .nav li a{font-family:'Open Sans',sans-serif;text-transform:uppercase;font-weight:600;letter-spacing:1px;color:#20555F;font-size:15px}
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus{color:#d1541a;outline:0}
 .navbar-default .navbar-nav>.active>a{border-radius:0;color:#fff;background-color:#d1541a}
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{color:#fff;background-color:#d1541a}
+
+/* Storesense expo logo */
+.navbar-default .navbar-brand img {
+  width: 120px;
+  float: left;
+  height: 45px;
+  position: relative;
+  top: -10px;
+}
+
+/* logo when the bar changes after sliding down */
+.navbar-default.navbar-shrink .navbar-brand img {
+  width: 120px;
+  float: left;
+  height: 45px;
+  position: relative;
+  top: -10px;
+}
+
+.navbar-default .navbar-login img {
+  max-width: 10%;
+  height: auto;
+  position: relative;
+  top: -3px;
+}
+
 
 @media (min-width:768px){
 
 .navbar-default{
 background-color:transparent;
-padding:30px 0;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
 -webkit-transition:padding .1s;
 -moz-transition:padding .1s;
 transition:padding .1s;
@@ -69,11 +107,28 @@ transition:all .1s
   top: -30px;
 }
 
+.navbar-default.navbar-shrink .navbar-brand img {
+  width: 200px;
+  float: left;
+  height: 75px;
+  position: relative;
+  top: -30px;
+}
+
 .navbar-default .navbar-login img {
-  width: 18px;
-  height: 26px;
+  max-width: 64%;
+  height: auto;
   position: relative;
   top: -3px;
+}
+
+.navbar-default .nav li a{
+    font-family:'Open Sans',sans-serif;
+    text-transform:uppercase;
+    font-weight:700;
+    letter-spacing:1px;
+    color:#20555F;
+    font-size:20px
 }
 
 }
