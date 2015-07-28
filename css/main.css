@@ -8,11 +8,36 @@ a{color:#fed136}
 a:hover,a:focus,a:active,a.active{color:#fec503}
 h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
 .img-centered{margin:0 auto}
-.btn-primary{color:#fff;background-color:#fed136;border-color:#fed136;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
+
+.btn-primary{color:#fff;background-color:#fed136;border-color:#fed136;font-family:'Open Sans',sans-serif;text-transform:uppercase;font-weight:700}
 
 .btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active{background-color:#fed136;border-color:#fed136}
 
-.btn-xl{color:#fff;background-color:#D1541a;border-color:#d1541a;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700;border-radius:3px;font-size:18px;padding:30px 80px}
+.btn-xl{
+    color:#fff;
+    background-color:#D1541a;
+    border-color:#d1541a;
+    font-family:'Open Sans',sans-serif;
+    text-transform:uppercase;
+    font-weight:600;
+    border-radius:3px;
+    font-size:12px;
+    padding:15px 40px
+}
+
+@media (min-width:768px){
+    .btn-xl{
+        color:#fff;
+        background-color:#D1541a;
+        border-color:#d1541a;
+        font-family:'Open Sans',sans-serif;
+        text-transform:uppercase;
+        font-weight:700;
+        border-radius:3px;
+        font-size:18px;
+        padding:30px 80px
+    }
+}
 
 .btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled] .btn-xl.active{background-color:#fed136;border-color:#fed136}
 
@@ -39,97 +64,97 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 
 /* Storesense expo logo */
 .navbar-default .navbar-brand img {
-  width: 120px;
-  float: left;
-  height: 45px;
-  position: relative;
-  top: -10px;
+    width: 120px;
+    float: left;
+    height: 45px;
+    position: relative;
+    top: -10px;
 }
 
 /* logo when the bar changes after sliding down */
 .navbar-default.navbar-shrink .navbar-brand img {
-  width: 120px;
-  float: left;
-  height: 45px;
-  position: relative;
-  top: -10px;
+    width: 120px;
+    float: left;
+    height: 45px;
+    position: relative;
+    top: -10px;
 }
 
 .navbar-default .navbar-login img {
-  max-width: 10%;
-  height: auto;
-  position: relative;
-  top: -3px;
+    width: 14px;
+    height: 19px;
+    position: relative;
+    top: -3px;
 }
 
 
 @media (min-width:768px){
 
-.navbar-default{
-background-color:transparent;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    padding-left: 0px;
-    padding-right: 0px;
--webkit-transition:padding .1s;
--moz-transition:padding .1s;
-transition:padding .1s;
-border:0
-}
+    .navbar-default{
+        background-color:transparent;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        padding-left: 0px;
+        padding-right: 0px;
+        -webkit-transition:padding .1s;
+        -moz-transition:padding .1s;
+        transition:padding .1s;
+        border:0
+    }
 
-.navbar-default .navbar-brand{
-font-size:2em;
--webkit-transition:all .1s;
--moz-transition:all .1s;
-transition:all .1s
-}
+    .navbar-default .navbar-brand{
+        font-size:2em;
+        -webkit-transition:all .1s;
+        -moz-transition:all .1s;
+        transition:all .1s
+    }
 
-.navbar-default .navbar-nav>.active>a{
-    border-radius:3px;
-}
+    .navbar-default .navbar-nav>.active>a{
+        border-radius:3px;
+    }
 
-.navbar-default.navbar-shrink{
-    background-color:#25B7C3;
-    padding-top: 30px;
-    padding-bottom: 5px;
-    border-bottom: 1px solid #1B5862;
-}
+    .navbar-default.navbar-shrink{
+        background-color:#65B5C3;
+        padding-top: 30px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid #1B5862;
+    }
 
-.navbar-default.navbar-shrink .navbar-brand{
-    font-size:1.5em;
-}
+    .navbar-default.navbar-shrink .navbar-brand{
+        font-size:1.5em;
+    }
 
-.navbar-default .navbar-brand img {
-  width: 200px;
-  float: left;
-  height: 75px;
-  position: relative;
-  top: -30px;
-}
+    .navbar-default .navbar-brand img {
+        width: 200px;
+        float: left;
+        height: 75px;
+        position: relative;
+        top: -30px;
+    }
 
-.navbar-default.navbar-shrink .navbar-brand img {
-  width: 200px;
-  float: left;
-  height: 75px;
-  position: relative;
-  top: -30px;
-}
+    .navbar-default.navbar-shrink .navbar-brand img {
+        width: 200px;
+        float: left;
+        height: 75px;
+        position: relative;
+        top: -30px;
+    }
 
-.navbar-default .navbar-login img {
-  max-width: 64%;
-  height: auto;
-  position: relative;
-  top: -3px;
-}
+    .navbar-default .navbar-login img {
+        width: 18px;
+        height: 24px;
+        position: relative;
+        top: -3px;
+    }
 
-.navbar-default .nav li a{
-    font-family:'Open Sans',sans-serif;
-    text-transform:uppercase;
-    font-weight:700;
-    letter-spacing:1px;
-    color:#20555F;
-    font-size:20px
-}
+    .navbar-default .nav li a{
+        font-family:'Open Sans',sans-serif;
+        text-transform:uppercase;
+        font-weight:700;
+        letter-spacing:1px;
+        color:#20555F;
+        font-size:20px
+    }
 
 }
 header{
@@ -143,39 +168,63 @@ header{
 }
 header .intro-text{padding-top:100px;padding-bottom:50px}
 
-header .intro-text .intro-heading{font-family:Open Sans,sans-serif;font-weight:900;font-size:55px;line-height:30px;margin-bottom:25px}
+header .intro-text .intro-heading{font-family:Open Sans,sans-serif;font-weight:700;font-size:25px;line-height:30px;margin-bottom:25px;}
 @media (min-width:768px){header .intro-text{padding-top:250px;padding-bottom:150px}
 
     header .intro-text .intro-heading{font-family:Open Sans,sans-serif;font-weight:900;font-size:55px;line-height:75px;margin-bottom:50px}
 }
-section{padding-top:150px;}
-section h2.section-heading{font-size:35px;margin-top:0;margin-bottom:15px}
+
+section h2.section-heading{
+    font-size:20px;
+    margin-top:0;
+    margin-bottom:15px}
+
 .no-uppercase{
-text-transform:none;
+    text-transform:none;
 }
+
 section h2.features-heading{
-font-family:'Open Sans',sans-serif;
-font-weight:900;
-font-size:40px;
-color:#1C5D6C;
+    font-family:'Open Sans',sans-serif;
+    font-weight:900;
+    font-size:40px;
+    color:#1C5D6C;
 }
 #rectangle{
     width:200px;
     height:10px;
     background:#1C5D6C;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
 }
 section h3.section-subheading{
-font-size:16px;
-font-family:"Open Sans",sans-serif;
-text-transform:none;
-font-style:italic;
-font-weight:400;
-margin-bottom:75px;
-color:white;
+    font-size:12px;
+    font-family:"Open Sans",sans-serif;
+    text-transform:none;
+    font-style:italic;
+    font-weight:300;
+    margin-bottom:50px;
+    color:white;
 }
+
+@media (min-width:768px){
+    section h2.section-heading{
+        font-size: 35px;
+    }
+
+    section h3.section-subheading{
+        font-size:16px;
+        font-family:"Open Sans",sans-serif;
+        text-transform:none;
+        font-style:italic;
+        font-weight:400;
+        margin-bottom:75px;
+        color:white;
+    }
+}
+
+section{padding:70px 0}
+
 @media (min-width:768px){section{padding:150px 0}
 }
 .features-heading{margin:15px 0;text-transform:none}
@@ -192,21 +241,73 @@ section#contact{
     background: #1C5D6C no-repeat center;
 }
 section#contact .section-heading{color:#fff}
-section#contact .form-group{margin-bottom:25px}
-section#contact .form-group input,section#contact .form-group textarea{padding:20px}
+section#contact .form-group{
+    margin-bottom:20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+section#contact .form-group input,section#contact .form-group textarea{padding:7px}
 section#contact .form-group input.form-control{height:auto}
+/* Message area */
 section#contact .form-group textarea.form-control{height:236px}
 section#contact .form-control:focus{border-color:#fed136;box-shadow:none}
-section#contact ::-webkit-input-placeholder{font-family:"Open Sans",sans-serif;text-transform:uppercase;font-weight:700;color:#bbb}
-section#contact :-moz-placeholder{font-family:"Open Sans",sans-serif;text-transform:uppercase;font-weight:700;color:#bbb}
-section#contact ::-moz-placeholder{font-family:"Open Sans",sans-serif;text-transform:uppercase;font-weight:700;color:#bbb}
-section#contact :-ms-input-placeholder{font-family:"Open Sans",sans-serif;text-transform:uppercase;font-weight:700;color:#bbb}
+section#contact ::-webkit-input-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
+section#contact :-moz-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
+section#contact ::-moz-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
+section#contact :-ms-input-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
 section#contact .text-danger{color:#e74c3c}
+
+@media (min-width:768px){
+    section#contact .form-group input,section#contact .form-group textarea{
+        padding:20px;
+    }
+    section#contact .form-group{
+        margin-bottom:25px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    section#contact ::-webkit-input-placeholder{font-weight:700;text-transform: uppercase;}
+    section#contact :-moz-placeholder{font-weight:700;text-transform: uppercase;}
+    section#contact ::-moz-placeholder{font-weight:700;text-transform: uppercase;}
+    section#contact :-ms-input-placeholder{font-weight:700;text-transform: uppercase;}
+}
+
+section#login .form-group{
+    margin-bottom:10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+section#login .form-group input,section#login .form-group textarea{padding:7px}
+section#login ::-webkit-input-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
+section#login :-moz-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
+section#login ::-moz-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
+section#login :-ms-input-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
+
+@media (min-width:768px){
+    section#login .form-group{
+    margin-bottom:20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    }
+
+    section#login .form-group input,section#login .form-group textarea{
+        padding:25px;
+    }
+
+    section#login ::-webkit-input-placeholder{font-weight:700;text-transform: uppercase;}
+    section#login :-moz-placeholder{font-weight:700;text-transform: uppercase;}
+    section#login ::-moz-placeholder{font-weight:700;text-transform: uppercase;}
+    section#login :-ms-input-placeholder{font-weight:700;text-transform: uppercase;}
+
+}
+
+
 footer {
-padding:25px 0;
-text-align:center;
-background-color:#174249;
-color:#fff;
+    padding:25px 0;
+    text-align:center;
+    background-color:#174249;
+    color:#fff;
 }
 footer span.copyright{line-height:40px;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:none}
 
@@ -218,7 +319,7 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 ::selection{text-shadow:none;background:#fed136}
 img::selection{background:0 0}
 img::-moz-selection{background:0 0}
-body{webkit-tap-highlight-color:#fed136}
+body{-webkit-tap-highlight-color:#fed136}
 
 #footer .col-md-10 {
     text-align: left;
