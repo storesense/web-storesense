@@ -1,0 +1,58 @@
+.header-btn{
+    text-align: center;
+    padding: 20px 40px;
+}
+
+@media (min-width:768px){
+    .header-btn{
+        padding: 40px 90px;
+        text-align: right;
+    }
+}
+
+.navbar-default .navbar-brand img {
+    height: 38px;
+}
+
+.navbar-default.navbar-shrink .navbar-brand img {
+    height: 38px;
+}
+
+@media (min-width:768px){
+    .navbar-default .navbar-brand img {
+        height: 64px;
+    }
+    .navbar-default.navbar-shrink .navbar-brand img {
+        height: 64px;
+    }
+
+}
+
+header#heading-storesense {
+    background-image: url(../img/header.jpeg);
+}
+
+header .intro-text .intro-heading{font-family:Open Sans,sans-serif;font-weight:500;font-size:30px;line-height:100%;color: #20555F}
+header h3.intro-subheading{
+    font-family:Open Sans,sans-serif;
+    font-weight:300;
+    font-size:15px;
+    text-transform:none;
+    line-height: 130%;
+    color: #000;
+}
+
+@media (min-width:768px){header .intro-text{padding-top:250px;padding-bottom:150px}
+
+    header{
+        text-align: left;
+    }
+    header .intro-text .intro-heading{font-family:Open Sans,sans-serif;font-weight:800;font-size:46px;line-height:100%;}
+    header h3.intro-subheading{
+        font-family:Open Sans,sans-serif;
+        font-weight:300;
+        font-size:20px;
+        text-transform:none;
+        line-height: 150%;
+    }
+}
