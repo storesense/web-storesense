@@ -181,8 +181,20 @@ section h2.features-heading{
     font-weight:600;
     font-size:20px;
     color:#1C5D6C;
+    letter-spacing: -1px;
+    margin-top: -40px;
 }
-#rectangle{
+
+section#insights h2.features-heading{
+    color: #fff;
+    margin-top: -30px;
+}
+
+section#insights .rectangle{
+    background: #fff;
+}
+
+.rectangle{
     width:90px;
     height:5px;
     background:#1C5D6C;
@@ -190,6 +202,13 @@ section h2.features-heading{
     margin-left: auto;
     margin-top: 15px;
 }
+
+section#insights{
+    background: #65B5C3 no-repeat center;
+    margin-top: -30px;
+    color: #fff;
+}
+
 section h3.section-subheading{
     font-size:12px;
     font-family:"Open Sans",sans-serif;
@@ -217,11 +236,11 @@ section h3.section-subheading{
 
     section h2.features-heading{
         font-family:'Open Sans',sans-serif;
-        font-weight:800;
+        font-weight:900;
         font-size:34px;
         color:#1C5D6C;
     }
-    #rectangle{
+    .rectangle{
         width:200px;
         height:10px;
         background:#1C5D6C;
@@ -236,6 +255,11 @@ section{padding:70px 0}
 @media (min-width:768px){section{padding:120px 0}
 }
 .features-heading{margin:15px 0;text-transform:none}
+
+
+
+
+
 
 #expo .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i{margin-top:-12px}
 #expo .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,#expo .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4{margin:0}
@@ -323,11 +347,11 @@ ul.social-buttons li a{display:block;background-color:#222;height:40px;width:40p
 ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{background-color:#fed136}
 .btn:focus,.btn:active,.btn.active,.btn:active:focus{outline:0}
 
-::-moz-selection{text-shadow:none;background:#fed136}
-::selection{text-shadow:none;background:#fed136}
+::-moz-selection{text-shadow:none;background:#000}
+::selection{text-shadow:none;background:#000}
 img::selection{background:0 0}
 img::-moz-selection{background:0 0}
-body{webkit-tap-highlight-color:#fed136}
+body{-webkit-tap-highlight-color:#000}
 
 #footer .col-md-10 {
     text-align: left;

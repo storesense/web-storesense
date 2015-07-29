@@ -17,7 +17,7 @@
 
 header#heading-expo {
     background-image: url(../img/bg.jpg);
-	color:#fff;
+    color:#fff;
 }
 
 header .intro-text .intro-heading{font-family:Open Sans,sans-serif;font-weight:700;font-size:25px;line-height:30px;margin-bottom:25px;}
@@ -29,9 +29,105 @@ header .intro-text .intro-heading{font-family:Open Sans,sans-serif;font-weight:7
 
 p.features-big-data{
     font-family: "Open Sans", sans-serif;
-    text-align: left;
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 30px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 25px;
 }
 
+.callout{
+    color: #FFB301;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+h2.callout{
+
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: -1px;
+}
+
+h3.callout{
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 70px;
+}
+
+h4.callout{
+    font-size: 17px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: -5px;
+}
+
+@media (min-width: 768px) {
+    p.features-big-data{
+        text-align: left;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+}
+
+section h4.insights {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+}
+
+section p.insights {
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-align: left;
+    font-weight: 200;
+}
+
+section .insight-descr {
+    margin-top: 50px;
+}
+
+section#longer-insights .features-heading {
+    margin-top: 80px;
+}
+
+
+.rect{
+    border-color: #fff;
+    border-width: 5px;
+    border-right: 5px;
+}
+#nw-rect{
+    background: #174249;
+    /*margin-bottom: 50px;*/
+}
+#ne-rect{
+    background: #1B5862;
+    /*margin-bottom: 50px;*/
+}
+#sw-rect{
+    background: #1b6d85;
+}
+#se-rect{
+    background: #5eb5c6;
+}
+section .longer-title{
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 70px;
+    margin-bottom: 170px;
+    color: #fff;
+    text-transform: none;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+section#longer-insights .rectangle {
+    margin-bottom: 50px;
+}
