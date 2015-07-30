@@ -57,3 +57,11 @@ header h3.intro-subheading{
         text-align: right;
     }
 }
+
+.callout {
+    color: #D35400;
+}
+
+section#insights {
+    background: #336E7B no-repeat center;
+}

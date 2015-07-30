@@ -91,6 +91,9 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
     top: -3px;
 }
 
+.navbar-default .navbar-login img:hover{
+    background-color: #d1541a;
+}
 
 @media (min-width:768px){
 
@@ -239,6 +242,210 @@ section#insights{
     }
 }
 
+/* properties for two paragraphs in first section of features */
+
+p.features-big-data{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+/* callout properties */
+
+.callout{
+    color: #FFB301;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    letter-spacing: -1px;
+}
+
+h2.callout{
+
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: -1px;
+}
+
+h3.callout{
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+
+h3.callout-not-first {
+   margin-top: 20px;
+}
+
+h4.callout{
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: -5px;
+}
+
+@media (min-width: 768px) {
+    p.features-big-data{
+        text-align: left;
+        font-size: 16px;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    h2.callout{
+        font-size: 45px;
+        margin-top: -1px;
+    }
+
+    h3.callout{
+        font-size: 30px;
+        margin-top: 70px;
+    }
+
+    h4.callout{
+        font-size: 17px;
+        margin-top: -5px;
+    }
+
+}
+
+/* properties for titles and paragraphs in second section of features */
+section h4.insights {
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+}
+
+section p.insights {
+    font-size: 14px;
+    margin-bottom: 2px;
+    text-align: left;
+    font-weight: 200;
+    letter-spacing: -1px;
+}
+
+section .insight-descr {
+    margin-top: 30px;
+}
+
+
+
+@media (min-width: 768px) {
+    section h4.insights {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    section p.insights {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    section .insight-descr {
+        margin-top: 50px;
+    }
+
+}
+
+/* properties for third section of features */
+
+section#longer-insights .features-heading {
+    margin-top: 10px;
+}
+
+.rect{
+    border-right-style: solid;
+    border-right-width: 2px;
+    margin-bottom: 0px;
+}
+#nw-rect{
+    background: #336E7B;
+    border-right-color: #9BBAC0;
+    /*margin-bottom: 50px;*/
+}
+#ne-rect{
+    background: #4D8993;
+    border-left-color: #9BBAC0;
+    border-right-color: #fff;
+    /*margin-bottom: 50px;*/
+    margin-top: -20px;
+}
+#sw-rect{
+    background: #76ACB2;
+    border-right-color: #BED8DA;
+    margin-top: -30px;
+}
+#se-rect{
+    background: #91BFC1;
+    border-right-color: #fff;
+    border-left-color: #BED8DA;
+    margin-top: -20px;
+}
+section .longer-title{
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    padding-top: 40px;
+    padding-bottom: 100px;
+    /*margin-top: 70px;
+    margin-bottom: 170px;*/
+    color: #fff;
+    text-transform: none;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+section#longer-insights .rectangle {
+    margin-bottom: 10px;
+}
+
+@media (min-width: 992px) {
+    #ne-rect{
+        margin-top: 0;
+    }
+    #sw-rect{
+        margin-top: 0;
+    }
+    #se-rect{
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 768px) {
+
+    section#longer-insights .features-heading {
+        margin-top: 50px;
+    }
+
+    section#longer-insights .rectangle {
+        margin-bottom: 50px;
+    }
+    section .longer-title{
+        font-size: 25px;
+        font-family: "Open Sans", sans-serif;
+        padding-top: 70px;
+        padding-bottom: 170px;
+        /*margin-top: 70px;
+        margin-bottom: 170px;*/
+        color: #fff;
+        text-transform: none;
+        text-align: center;
+        font-weight: 700;
+        letter-spacing: -1px;
+    }
+
+}
+
+
+/*#expo *{z-index:2}*/
+
+/* ---------- CONTACT PROPERTIES ---------- */
+
 section h2.contact-heading{
     font-size:20px;
     margin-top:0;
@@ -254,10 +461,6 @@ section h3.contact-subheading{
     margin-bottom:50px;
     color:white;
 }
-
-/*#expo *{z-index:2}*/
-
-/* ---------- CONTACT PROPERTIES ---------- */
 
 section#contact{
     background: #1C5D6C no-repeat center;
