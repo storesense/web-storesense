@@ -8,6 +8,9 @@ a{color:#fed136}
 a:hover,a:focus,a:active,a.active{color:#fec503}
 h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
 .img-centered{margin:0 auto}
+.no-uppercase{
+    text-transform:none;
+}
 
 .btn-primary{color:#fff;background-color:#fed136;border-color:#fed136;font-family:'Open Sans',sans-serif;text-transform:uppercase;font-weight:700}
 
@@ -40,6 +43,9 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 }
 
 .btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled] .btn-xl.active{background-color:#fed136;border-color:#fed136}
+
+
+/* ---------- NAVIGATION BAR PROPERTIES ---------- */
 
 .navbar-default{
     background-color:#5eb5c6;
@@ -154,6 +160,8 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 
 }
 
+/* ---------- HEADER PROPERTIES ---------- */
+
 header{
     background-repeat: no-repeat;
     background-attachment:  scroll;
@@ -166,32 +174,32 @@ header{
 }
 header .intro-text{padding-top:100px;padding-bottom:50px}
 
+/* ---------- Paddings between sections ----------*/
 
-section h2.section-heading{
-    font-size:20px;
-    margin-top:0;
-    margin-bottom:15px}
+section{padding:70px 0}
 
-.no-uppercase{
-    text-transform:none;
+@media (min-width:768px){section{padding:120px 0}
 }
 
+
+/* ---------- FEATURES BODY PROPERTIES ---------- */
+
+
+/* Headings for features, followed by small rectangles */
 section h2.features-heading{
     font-family:'Open Sans',sans-serif;
     font-weight:600;
-    font-size:20px;
+    font-size:22px;
     color:#1C5D6C;
     letter-spacing: -1px;
+    text-transform:none;
     margin-top: -40px;
 }
 
+/* Second feature heading */
 section#insights h2.features-heading{
     color: #fff;
     margin-top: -30px;
-}
-
-section#insights .rectangle{
-    background: #fff;
 }
 
 .rectangle{
@@ -203,13 +211,41 @@ section#insights .rectangle{
     margin-top: 15px;
 }
 
+section#insights .rectangle{
+    background: #fff;
+}
+
+
+/* Second feature body */
 section#insights{
     background: #65B5C3 no-repeat center;
     margin-top: -30px;
     color: #fff;
 }
 
-section h3.section-subheading{
+
+
+@media (min-width:768px){
+
+
+    section h2.features-heading{
+        font-weight:900;
+        font-size:34px;
+    }
+    .rectangle{
+        width:200px;
+        height:10px;
+        margin-top: 25px;
+    }
+}
+
+section h2.contact-heading{
+    font-size:20px;
+    margin-top:0;
+    margin-bottom:15px;
+}
+
+section h3.contact-subheading{
     font-size:12px;
     font-family:"Open Sans",sans-serif;
     text-transform:none;
@@ -219,60 +255,14 @@ section h3.section-subheading{
     color:white;
 }
 
-@media (min-width:768px){
-    section h2.section-heading{
-        font-size: 35px;
-    }
+/*#expo *{z-index:2}*/
 
-    section h3.section-subheading{
-        font-size:16px;
-        font-family:"Open Sans",sans-serif;
-        text-transform:none;
-        font-style:italic;
-        font-weight:400;
-        margin-bottom:75px;
-        color:white;
-    }
+/* ---------- CONTACT PROPERTIES ---------- */
 
-    section h2.features-heading{
-        font-family:'Open Sans',sans-serif;
-        font-weight:900;
-        font-size:34px;
-        color:#1C5D6C;
-    }
-    .rectangle{
-        width:200px;
-        height:10px;
-        background:#1C5D6C;
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 25px;
-    }
-}
-
-section{padding:70px 0}
-
-@media (min-width:768px){section{padding:120px 0}
-}
-.features-heading{margin:15px 0;text-transform:none}
-
-
-
-
-
-
-#expo .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i{margin-top:-12px}
-#expo .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,#expo .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4{margin:0}
-
-#expo .portfolio-item .portfolio-caption h4{text-transform:none;margin:0}
-#expo .portfolio-item .portfolio-caption p{font-family:"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;font-style:italic;font-size:16px;margin:0}
-#expo *{z-index:2}
-
-aside.clients img{margin:50px auto}
 section#contact{
     background: #1C5D6C no-repeat center;
 }
-section#contact .section-heading{color:#fff}
+section#contact .contact-heading{color:#fff}
 section#contact .form-group{
     margin-bottom:20px;
     margin-left: 10px;
@@ -290,6 +280,16 @@ section#contact :-ms-input-placeholder{font-family:"Open Sans",sans-serif;text-t
 section#contact .text-danger{color:#e74c3c}
 
 @media (min-width:768px){
+    section h2.contact-heading{
+        font-size: 35px;
+    }
+
+    section h3.contact-subheading{
+        font-size:16px;
+        font-weight:400;
+        margin-bottom:75px;
+    }
+
     section#contact .form-group input,section#contact .form-group textarea{
         padding:20px;
     }
@@ -299,11 +299,13 @@ section#contact .text-danger{color:#e74c3c}
         margin-right: 0px;
     }
 
-    section#contact ::-webkit-input-placeholder{font-weight:700;text-transform: uppercase;}
-    section#contact :-moz-placeholder{font-weight:700;text-transform: uppercase;}
-    section#contact ::-moz-placeholder{font-weight:700;text-transform: uppercase;}
-    section#contact :-ms-input-placeholder{font-weight:700;text-transform: uppercase;}
+    section#contact ::-webkit-input-placeholder{font-weight:700;}
+    section#contact :-moz-placeholder{font-weight:700;}
+    section#contact ::-moz-placeholder{font-weight:700;}
+    section#contact :-ms-input-placeholder{font-weight:700;}
 }
+
+/* ---------- LOGIN FORM PROPERTIES ---------- */
 
 section#login .form-group{
     margin-bottom:10px;
@@ -322,18 +324,16 @@ section#login :-ms-input-placeholder{font-family:"Open Sans",sans-serif;text-tra
         margin-left: 0px;
         margin-right: 0px;
     }
-
     section#login .form-group input,section#login .form-group textarea{
         padding:25px;
     }
-
     section#login ::-webkit-input-placeholder{font-weight:700;text-transform: uppercase;}
     section#login :-moz-placeholder{font-weight:700;text-transform: uppercase;}
     section#login ::-moz-placeholder{font-weight:700;text-transform: uppercase;}
     section#login :-ms-input-placeholder{font-weight:700;text-transform: uppercase;}
-
 }
 
+/* ---------- FOOTER PROPERTIES ---------- */
 
 footer {
     padding:25px 0;
@@ -342,17 +342,6 @@ footer {
     color:#fff;
 }
 footer span.copyright{line-height:40px;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:none}
-
-ul.social-buttons li a{display:block;background-color:#222;height:40px;width:40px;border-radius:100%;font-size:20px;line-height:40px;color:#fff;outline:0;-webkit-transition:all .3s;-moz-transition:all .3s;transition:all .3s}
-ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{background-color:#fed136}
-.btn:focus,.btn:active,.btn.active,.btn:active:focus{outline:0}
-
-::-moz-selection{text-shadow:none;background:#000}
-::selection{text-shadow:none;background:#000}
-img::selection{background:0 0}
-img::-moz-selection{background:0 0}
-body{-webkit-tap-highlight-color:#000}
-
 #footer .col-md-10 {
     text-align: left;
 }
@@ -360,3 +349,12 @@ body{-webkit-tap-highlight-color:#000}
 #footer .col-md-1 {
     text-align: center;
 }
+
+.btn:focus,.btn:active,.btn.active,.btn:active:focus{outline:0}
+
+::-moz-selection{text-shadow:none;background: rgba(0,0,0,0.5);}
+::selection{text-shadow:none;background:rgba(0,0,0,0.5);}
+img::selection{background:0 0}
+img::-moz-selection{background:0 0}
+body{-webkit-tap-highlight-color:rgba(0,0,0,0.5); }
+

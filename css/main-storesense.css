@@ -1,14 +1,4 @@
-.header-btn{
-    text-align: center;
-    padding: 20px 40px;
-}
-
-@media (min-width:768px){
-    .header-btn{
-        padding: 40px 90px;
-        text-align: right;
-    }
-}
+/* ---------- LOGO HEIGHT IN NAVIGATION BAR ---------- */
 
 .navbar-default .navbar-brand img {
     height: 38px;
@@ -27,6 +17,13 @@
     }
 
 }
+
+/* ---------- HEADER PROPERTIES --------- */
+.header-btn{
+    text-align: center;
+    padding: 20px 40px;
+}
+
 
 header#heading-storesense {
     background-image: url(../img/header.jpeg);
@@ -54,5 +51,9 @@ header h3.intro-subheading{
         font-size:20px;
         text-transform:none;
         line-height: 150%;
+    }
+    .header-btn{
+        padding: 40px 90px;
+        text-align: right;
     }
 }

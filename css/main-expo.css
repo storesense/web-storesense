@@ -1,3 +1,5 @@
+/* ---------- LOGO HEIGHT IN NAVIGATION BAR ---------- */
+
 .navbar-default .navbar-brand img {
     height: 45px;
 }
@@ -15,6 +17,8 @@
     }
 }
 
+/* ---------- HEADER PROPERTIES ---------- */
+
 header#heading-expo {
     background-image: url(../img/bg.jpg);
     color:#fff;
@@ -27,10 +31,11 @@ header .intro-text .intro-heading{font-family:Open Sans,sans-serif;font-weight:7
     header .intro-text .intro-heading{font-family:Open Sans,sans-serif;font-weight:800;font-size:45px;line-height:75px;margin-bottom:50px}
 }
 
+
 p.features-big-data{
     font-family: "Open Sans", sans-serif;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 500;
     margin-top: 25px;
 }
@@ -44,21 +49,21 @@ p.features-big-data{
 
 h2.callout{
 
-    font-size: 45px;
+    font-size: 28px;
     font-weight: 800;
     text-transform: uppercase;
     margin-top: -1px;
 }
 
 h3.callout{
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 800;
     text-transform: uppercase;
-    margin-top: 70px;
+    margin-top: 40px;
 }
 
 h4.callout{
-    font-size: 17px;
+    font-size: 13px;
     font-weight: 400;
     text-transform: capitalize;
     margin-top: -5px;
@@ -71,29 +76,64 @@ h4.callout{
         font-weight: 600;
         margin-top: 30px;
     }
+
+    h2.callout{
+        font-size: 45px;
+    }
+
+    h3.callout{
+        font-size: 30px;
+        margin-top: 70px;
+    }
+
+    h4.callout{
+        font-size: 17px;
+    }
+
 }
 
 section h4.insights {
-    font-size: 25px;
+    font-size: 18px;
     font-family: "Open Sans", sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     text-transform: capitalize;
     letter-spacing: -1px;
 }
 
 section p.insights {
-    font-size: 18px;
-    margin-bottom: 5px;
+    font-size: 14px;
+    margin-bottom: 2px;
     text-align: left;
     font-weight: 200;
+    letter-spacing: -1px;
 }
 
 section .insight-descr {
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 section#longer-insights .features-heading {
-    margin-top: 50px;
+    margin-top: 10px;
+}
+
+@media (min-width: 768px) {
+    section h4.insights {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    section p.insights {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    section .insight-descr {
+        margin-top: 50px;
+    }
+
+    section#longer-insights .features-heading {
+        margin-top: 50px;
+    }
 }
 
 
@@ -124,8 +164,10 @@ section#longer-insights .features-heading {
 section .longer-title{
     font-size: 25px;
     font-family: "Open Sans", sans-serif;
-    margin-top: 70px;
-    margin-bottom: 170px;
+    padding-top: 70px;
+    padding-bottom: 170px;
+    /*margin-top: 70px;
+    margin-bottom: 170px;*/
     color: #fff;
     text-transform: none;
     text-align: center;
@@ -134,5 +176,11 @@ section .longer-title{
 }
 
 section#longer-insights .rectangle {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    section#longer-insights .rectangle {
+        margin-bottom: 50px;
+    }
 }
