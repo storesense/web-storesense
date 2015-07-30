@@ -93,28 +93,33 @@ section .insight-descr {
 }
 
 section#longer-insights .features-heading {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 
 .rect{
-    border-color: #fff;
-    border-width: 5px;
-    border-right: 5px;
+    border-right-style: solid;
+    border-right-width: 2px;
 }
 #nw-rect{
-    background: #174249;
+    background: #336E7B;
+    border-right-color: #9BBAC0;
     /*margin-bottom: 50px;*/
 }
 #ne-rect{
-    background: #1B5862;
+    background: #4D8993;
+    border-left-color: #9BBAC0;
+    border-right-color: #fff;
     /*margin-bottom: 50px;*/
 }
 #sw-rect{
-    background: #1b6d85;
+    background: #76ACB2;
+    border-right-color: #BED8DA;
 }
 #se-rect{
-    background: #5eb5c6;
+    background: #91BFC1;
+    border-right-color: #fff;
+    border-left-color: #BED8DA;
 }
 section .longer-title{
     font-size: 25px;
