@@ -1,11 +1,11 @@
 body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif}
 .text-muted{color:#777}
 
-p{font-size:14px;line-height:1.75}
+p{line-height:1.75}
 p.large{font-size:16px}
 a,a:hover,a:focus,a:active,a.active{outline:0}
-a{color:#fed136}
-a:hover,a:focus,a:active,a.active{color:#fec503}
+a{color:#d1541a}
+a:hover,a:focus,a:active,a.active{color:#E46425}
 h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
 .img-centered{margin:0 auto}
 .no-uppercase{
@@ -337,18 +337,33 @@ section#login :-ms-input-placeholder{font-family:"Open Sans",sans-serif;text-tra
 
 footer {
     padding:25px 0;
-    text-align:center;
     background-color:#174249;
     color:#fff;
+    font-size: 10px;
 }
-footer span.copyright{line-height:40px;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:none}
-#footer .col-md-10 {
-    text-align: left;
-}
+footer span.copyright{line-height:40px;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:none;}
 
 #footer .col-md-1 {
     text-align: center;
 }
+
+footer img {
+    width: 25px;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    footer{
+        font-size: 14px;
+    }
+    
+    footer img {
+        width: auto;
+        height: auto;
+        margin-top: 5px;
+    }
+}
+
 
 .btn:focus,.btn:active,.btn.active,.btn:active:focus{outline:0}
 
