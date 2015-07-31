@@ -277,7 +277,7 @@ h3.callout{
 }
 
 h3.callout-not-first {
-   margin-top: 20px;
+    margin-top: 20px;
 }
 
 h4.callout{
@@ -359,8 +359,7 @@ section#longer-insights .features-heading {
 }
 
 .rect{
-    border-right-style: solid;
-    border-right-width: 2px;
+
     margin-bottom: 0px;
 }
 #nw-rect{
@@ -405,6 +404,10 @@ section#longer-insights .rectangle {
 }
 
 @media (min-width: 992px) {
+    .rect {
+        border-right-style: solid;
+        border-right-width: 2px;
+    }
     #ne-rect{
         margin-top: 0;
     }
@@ -559,7 +562,7 @@ footer img {
     footer{
         font-size: 14px;
     }
-    
+
     footer img {
         width: auto;
         height: auto;
