@@ -71,6 +71,7 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 /* Storesense expo logo */
 .navbar-default .navbar-brand img {
     width: 120px;
+    height: 38px;
     float: left;
     position: relative;
     top: -10px;
@@ -79,6 +80,7 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 /* logo when the bar changes after sliding down */
 .navbar-default.navbar-shrink .navbar-brand img {
     width: 120px;
+    height: 38px;
     float: left;
     position: relative;
     top: -10px;
@@ -133,6 +135,7 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 
     .navbar-default .navbar-brand img {
         width: 150px;
+        height: 48px;
         float: left;
         position: relative;
         top: -20px;
@@ -140,6 +143,7 @@ h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-s
 
     .navbar-default.navbar-shrink .navbar-brand img {
         width: 150px;
+        height: 48px;
         float: left;
         position: relative;
         top: -20px;
