@@ -1,4 +1,4 @@
-body{overflow-x:hidden;font-family:"Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif}
+body{overflow-x:hidden;font-family:'Open Sans',sans-serif}
 .text-muted{color:#777}
 
 p{line-height:1.75}
@@ -181,7 +181,7 @@ header .intro-text{padding-top:80px;padding-bottom:40px}
 
 section{padding:70px 0}
 
-@media (min-width:768px){section{padding:120px 0}
+@media (min-width:768px){section{padding:60px 0}
 }
 
 
@@ -304,7 +304,8 @@ h4.callout{
 
     h3.callout{
         font-size: 25px;
-        margin-top: 70px;
+        margin-top: 50px;
+        height:60px;
     }
 
     h4.callout{
@@ -390,15 +391,17 @@ section#longer-insights .features-heading {
 section .longer-title{
     font-size: 20px;
     font-family: "Open Sans", sans-serif;
-    padding-top: 40px;
-    padding-bottom: 100px;
-    /*margin-top: 70px;
+    padding-top: 20px;
+
+    /*
+        padding-bottom: 100px;
+    margin-top: 70px;
     margin-bottom: 170px;*/
     color: #fff;
     text-transform: none;
     text-align: center;
     font-weight: 700;
-    letter-spacing: -1px;
+/*    letter-spacing: -1px; */
 }
 
 section#longer-insights .rectangle {
@@ -409,6 +412,7 @@ section#longer-insights .rectangle {
     .rect {
         border-right-style: solid;
         border-right-width: 2px;
+        height: 200px;
     }
     #ne-rect{
         margin-top: 0;
@@ -433,15 +437,19 @@ section#longer-insights .rectangle {
     section .longer-title{
         font-size: 22px;
         font-family: "Open Sans", sans-serif;
-        padding-top: 70px;
-        padding-bottom: 170px;
+
+
+    /*    
+            padding-top: 40px;
+            padding-bottom: 170px;
         /*margin-top: 70px;
+        letter-spacing: -1px;
         margin-bottom: 170px;*/
         color: #fff;
         text-transform: none;
         text-align: center;
         font-weight: 700;
-        letter-spacing: -1px;
+
     }
 
 }
@@ -486,6 +494,58 @@ section#contact :-moz-placeholder{font-family:"Open Sans",sans-serif;text-transf
 section#contact ::-moz-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
 section#contact :-ms-input-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
 section#contact .text-danger{color:#e74c3c}
+
+
+
+/** hs-form-field hs_submit **/
+
+.hs-form-field {
+    padding-bottom: 20px;
+    width: 100%;
+    font-family:'Open Sans',sans-serif;
+    color:#fff;
+
+}
+
+.hs-input {
+    width: 100%;
+    color: #555;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.hs-button{
+    color:#fff;
+    background-color:#D1541a;
+    border-color:#d1541a;
+    font-family:'Open Sans',sans-serif;
+    text-transform:uppercase;
+    font-weight:700;
+    border-radius:6px;
+    font-size:14px;
+    padding:25px 50px;
+    width: 100%;
+
+    display: inline-block;
+    margin-bottom: 0;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    }
+
+.hs-button:hover {
+
+    color: #333;
+    text-decoration: none;
+}
+
+
 
 @media (min-width:768px){
     section h2.contact-heading{
@@ -575,6 +635,24 @@ footer img {
     }
 }
 
+
+.features-quote {
+        font-size:24px;
+        font-weight:400;
+}
+
+.features-attr {
+        font-size:20px;
+        font-weight:300;
+}
+
+.casestudy-cta {
+    padding-top: 20px;
+}
+
+.callout-desc {
+    text-align: center;
+}
 
 .btn:focus,.btn:active,.btn.active,.btn:active:focus{outline:0}
 
