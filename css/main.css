@@ -620,7 +620,7 @@ section#login :-ms-input-placeholder{font-family:"Open Sans",sans-serif;text-tra
 
 footer {
     padding-top:25px;
-    padding-bottom: 35px;
+    padding-bottom: 15px;
     background-color:#174249;
     color:#fff;
     font-size: 10px;
@@ -675,7 +675,8 @@ footer img {
 
 .callout-desc {
     text-align: center;
-    color: #FFB301;
+    color: #1C5D6C;
+    font-size:16px;
 }
 
 .rect-maintext  {
