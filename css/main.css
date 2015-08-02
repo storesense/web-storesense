@@ -6,7 +6,7 @@ p.large{font-size:16px}
 a,a:hover,a:focus,a:active,a.active{outline:0}
 a{color:#d1541a}
 a:hover,a:focus,a:active,a.active{color:#E46425}
-h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
+h1,h2,h3,h4,h5,h6{font-family:'Open Sans',sans-serif;text-transform:uppercase;font-weight:700}
 .img-centered{margin:0 auto}
 .no-uppercase{
     text-transform:none;
@@ -213,6 +213,15 @@ section#insights h2.features-heading{
     width:90px;
     height:5px;
     background:#1C5D6C;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15px;
+}
+
+.rectangle-white{
+    width:90px;
+    height:5px;
+    background:#fff;
     margin-right: auto;
     margin-left: auto;
     margin-top: 15px;
@@ -518,6 +527,7 @@ background-color: #fff;
 background-image: none;
 border: 1px solid #ccc;
 border-radius: 4px;
+height: 40px;
 }
 
 .hs-button{
@@ -616,7 +626,14 @@ footer {
     font-size: 10px;
     font-weight: 300;
 }
-footer span.copyright{line-height:40px;font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:none;}
+footer span.copyright{line-height:40px;font-family:'Open Sans',sans-serif;text-transform:none;}
+
+footer a{color:#fff;}
+footer a:hover,a:focus,a:active,a.active{color:#d1541a}
+
+footer h3 {
+    padding-bottom: 10px;
+}
 
 #footer .col-md-1 {
     text-align: center;
@@ -639,6 +656,8 @@ footer img {
     }
 }
 
+
+/* JAN ADDITIONAL */
 
 .features-quote {
         font-size:24px;
