@@ -1,3 +1,16 @@
 author: Storesense
 url: http://storesense.info/
-title: Storesense Expo - powering the next generation of events
+title: storesense
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      type: "expo"
+
+  -
+    scope:
+      path: "storesense"
+    values:
+      type: "storesense"

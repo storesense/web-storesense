@@ -20,9 +20,15 @@
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
+
                 <li>
-                    <a href="/">Expo</a>
+                    {% if include.param == "storesense" %}
+                        <a href="/">Expo</a>
+                    {% else %}
+                        <a href="{{ site.baseurl }}/storesense">Storesense</a>
+                    {% endif %}
                 </li>
+
                 <li>
                     <a href="http://blog.storesense.info">Blog</a>
                 </li>
