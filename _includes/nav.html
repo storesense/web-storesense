@@ -10,7 +10,11 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand page-scroll" href="#page-top">
-                <img src="{{ site.baseurl }}/img/storesense-logo.png">
+                {% if include.param == "storesense" %}
+                    <img src="{{ site.baseurl }}/img/storesense_logo.png">
+                {% else %}
+                    <img src="{{ site.baseurl }}/img/expo_logo.png">
+                {% endif %}
             </a>
         </div>
 

@@ -43,6 +43,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Open Sans',sans-serif;text-transform:uppercase;fo
 /* Toggle button for menu displayed on mobile browsers */
 .navbar-default .navbar-toggle{background-color:#d1541a;border-color:#d1541a;}
 .navbar-default .navbar-toggle .icon-bar{background-color:#fff}
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:#d1541a}
 
 /* Menu line */
 .navbar-default .nav li a{
