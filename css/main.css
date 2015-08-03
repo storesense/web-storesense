@@ -10,10 +10,6 @@ h1,h2,h3,h4,h5,h6{font-family:'Open Sans',sans-serif;text-transform:uppercase;fo
     text-transform:none;
 }
 
-.btn-primary{color:#fff;background-color:#fed136;border-color:#fed136;font-family:'Open Sans',sans-serif;text-transform:uppercase;font-weight:700}
-
-.btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active{background-color:#fed136;border-color:#fed136}
-
 .btn-xl{
     color:#fff;
     background-color:#D1541a;
@@ -34,8 +30,6 @@ h1,h2,h3,h4,h5,h6{font-family:'Open Sans',sans-serif;text-transform:uppercase;fo
     }
 }
 
-.btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled] .btn-xl.active{background-color:#fed136;border-color:#fed136}
-
 
 /* ---------- NAVIGATION BAR PROPERTIES ---------- */
 
@@ -49,7 +43,6 @@ h1,h2,h3,h4,h5,h6{font-family:'Open Sans',sans-serif;text-transform:uppercase;fo
 /* Toggle button for menu displayed on mobile browsers */
 .navbar-default .navbar-toggle{background-color:#d1541a;border-color:#d1541a;}
 .navbar-default .navbar-toggle .icon-bar{background-color:#fff}
-.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus{background-color:#d1541a}
 
 /* Menu line */
 .navbar-default .nav li a{
@@ -60,7 +53,7 @@ h1,h2,h3,h4,h5,h6{font-family:'Open Sans',sans-serif;text-transform:uppercase;fo
     font-size:13px;
 }
 .navbar-default .nav li a:hover,.navbar-default .nav li a:focus{color:#d1541a;outline:0}
-.navbar-default .navbar-nav>.active>a{border-radius:0;color:#fff;background-color:#d1541a}
+.navbar-default .navbar-nav>.active>a{color:#fff;background-color:#d1541a}
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus{color:#fff;background-color:#d1541a}
 
 /* Storesense expo logo */
@@ -77,7 +70,6 @@ h1,h2,h3,h4,h5,h6{font-family:'Open Sans',sans-serif;text-transform:uppercase;fo
         background-color:transparent;
         padding-bottom: 30px;
         padding-top: 30px;
-        border:0
     }
 
     .navbar-default .navbar-nav>.active>a{
@@ -127,6 +119,9 @@ section{padding:70px 0}
 
 /* ---------- FEATURES BODY PROPERTIES ---------- */
 
+section#features{
+    padding: 0;
+}
 
 /* Headings for features, followed by small rectangles */
 section h2.features-heading{
@@ -136,13 +131,11 @@ section h2.features-heading{
     color:#1C5D6C;
     letter-spacing: -2px;
     text-transform:none;
-    margin-top: -40px;
 }
 
 /* Second feature heading */
 section#insights h2.features-heading{
     color: #fff;
-    margin-top: -30px;
 }
 
 .rectangle{
@@ -171,7 +164,7 @@ section#insights .rectangle{
 /* Second feature body */
 section#insights{
     background: #65B5C3 no-repeat center;
-    margin-top: -30px;
+    margin-top: 30px;
     color: #fff;
 }
 
@@ -218,23 +211,8 @@ h3.callout{
     margin-top: 40px;
 }
 
-h2.callout{
-
-    font-size: 28px;
-    font-weight: 800;
-    text-transform: uppercase;
-    margin-top: -1px;
-}
-
 h3.callout-not-first {
     margin-top: 20px;
-}
-
-h4.callout{
-    font-size: 13px;
-    font-weight: 400;
-    text-transform: capitalize;
-    margin-top: -5px;
 }
 
 @media (min-width: 768px) {
