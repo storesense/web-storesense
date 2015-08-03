@@ -225,22 +225,11 @@ h3.callout-not-first {
         letter-spacing: -1px;
     }
 
-    h2.callout{
-        font-size: 37px;
-        margin-top: -1px;
-    }
-
     h3.callout{
         font-size: 25px;
         margin-top: 50px;
         height:60px;
     }
-
-    h4.callout{
-        font-size: 14px;
-        margin-top: -5px;
-    }
-
 }
 
 /* properties for titles and paragraphs in second section of features */
@@ -263,8 +252,6 @@ section p.insights {
 section .insight-descr {
     margin-top: 30px;
 }
-
-
 
 @media (min-width: 768px) {
     section h4.insights {
@@ -290,8 +277,7 @@ section#longer-insights .features-heading {
 }
 
 .rect{
-
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 #nw-rect{
     background: #336E7B;
@@ -316,20 +302,12 @@ section#longer-insights .features-heading {
     border-left-color: #BED8DA;
     margin-top: -20px;
 }
-section .longer-title{
-    font-size: 20px;
+h3.longer-title{
+    font-size: 16px;
     font-family: "Open Sans", sans-serif;
     padding-top: 20px;
-
-    /*
-        padding-bottom: 100px;
-    margin-top: 70px;
-    margin-bottom: 170px;*/
-    text-transform:uppercase;
-    color: #fff;
     text-align: center;
-    font-weight: 700;
-/*    letter-spacing: -1px; */
+    color: #fff;
 }
 
 section#longer-insights .rectangle {
@@ -362,22 +340,8 @@ section#longer-insights .rectangle {
     section#longer-insights .rectangle {
         margin-bottom: 50px;
     }
-    section .longer-title{
+    h3.longer-title{
         font-size: 22px;
-        font-family: "Open Sans", sans-serif;
-
-
-    /*    
-            padding-top: 40px;
-            padding-bottom: 170px;
-        /*margin-top: 70px;
-        letter-spacing: -1px;
-        margin-bottom: 170px;*/
-        color: #fff;
-        text-transform: uppercase;
-        text-align: center;
-        font-weight: 700;
-
     }
 
 }
@@ -407,23 +371,6 @@ section#contact{
     background: #1C5D6C no-repeat center;
 }
 section#contact .contact-heading{color:#fff}
-section#contact .form-group{
-    margin-bottom:18px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-section#contact .form-group input,section#contact .form-group textarea{padding:7px}
-section#contact .form-group input.form-control{height:auto}
-/* Message area */
-section#contact .form-group textarea.form-control{height:236px}
-section#contact .form-control:focus{border-color:#fed136;box-shadow:none}
-section#contact ::-webkit-input-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
-section#contact :-moz-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
-section#contact ::-moz-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
-section#contact :-ms-input-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
-section#contact .text-danger{color:#e74c3c}
-
-
 
 /** hs-form-field hs_submit **/
 
@@ -481,54 +428,6 @@ height: 40px;
         font-size: 30px;
         letter-spacing: -1px;
     }
-
-    section h3.contact-subheading{
-        font-size:14px;
-        font-weight:400;
-        margin-bottom:75px;
-    }
-
-    section#contact .form-group input,section#contact .form-group textarea{
-        padding:20px;
-    }
-    section#contact .form-group{
-        margin-bottom:25px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    section#contact ::-webkit-input-placeholder{font-weight:700;}
-    section#contact :-moz-placeholder{font-weight:700;}
-    section#contact ::-moz-placeholder{font-weight:700;}
-    section#contact :-ms-input-placeholder{font-weight:700;}
-}
-
-/* ---------- LOGIN FORM PROPERTIES ---------- */
-
-section#login .form-group{
-    margin-bottom:10px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-section#login .form-group input,section#login .form-group textarea{padding:7px}
-section#login ::-webkit-input-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
-section#login :-moz-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
-section#login ::-moz-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
-section#login :-ms-input-placeholder{font-family:"Open Sans",sans-serif;text-transform:none;font-weight:500;color:#bbb}
-
-@media (min-width:768px){
-    section#login .form-group{
-        margin-bottom:20px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-    section#login .form-group input,section#login .form-group textarea{
-        padding:25px;
-    }
-    section#login ::-webkit-input-placeholder{font-weight:700;text-transform: uppercase;}
-    section#login :-moz-placeholder{font-weight:700;text-transform: uppercase;}
-    section#login ::-moz-placeholder{font-weight:700;text-transform: uppercase;}
-    section#login :-ms-input-placeholder{font-weight:700;text-transform: uppercase;}
 }
 
 /* ---------- FOOTER PROPERTIES ---------- */
@@ -541,7 +440,6 @@ footer {
     font-size: 10px;
     font-weight: 300;
 }
-footer span.copyright{line-height:40px;font-family:'Open Sans',sans-serif;text-transform:none;}
 
 footer a{color:#fff;}
 footer a:hover,a:focus,a:active,a.active{color:#d1541a}
