@@ -1,16 +1,3 @@
 author: Storesense
 url: http://storesense.info/
-title: storesense
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      type: "expo"
-
-  -
-    scope:
-      path: "storesense"
-    values:
-      type: "storesense"
+title: Storesense
