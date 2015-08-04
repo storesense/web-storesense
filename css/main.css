@@ -70,7 +70,7 @@ h6 {
 /* ---------- NAVIGATION BAR PROPERTIES ---------- */
 
 .navbar-default {
-    background-color: #65B5C3;
+    background-color: #65b5c3;
     border-bottom: 0;
 }
 
@@ -130,7 +130,6 @@ h6 {
     .navbar-default {
         padding-bottom: 5px;
         padding-top: 30px;
-        border-bottom: 1px solid #1B5862;
     }
 
     .navbar-transparent{
@@ -142,10 +141,8 @@ h6 {
         border-radius: 3px;
     }
 
-    .navbar-default.navbar-shrink {
+    .navbar-transparent.navbar-shrink {
         background-color: #65b5c3;
-        padding-top: 30px;
-        padding-bottom: 5px;
         border-bottom: 1px solid #1b5862;
     }
 
