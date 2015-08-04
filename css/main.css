@@ -54,7 +54,6 @@ h6 {
 .btn-xl:focus,
 .btn-xl:active,
 .btn-xl.active {
-    background-color: #e7e7e7;
     color: #333;
 }
 
