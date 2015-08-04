@@ -63,8 +63,8 @@ h6 {
 /* ---------- NAVIGATION BAR PROPERTIES ---------- */
 
 .navbar-default {
-    background-color:#5eb5c6;
-    border-color:transparent;
+    background-color: #65B5C3;
+    border-bottom: 0;
 }
 
 .navbar-default .navbar-collapse {
@@ -119,12 +119,21 @@ h6 {
     top: -10px;
 }
 
+.fixed-nav{
+    padding-top: 80px;
+}
+
 @media (min-width:768px) {
 
     .navbar-default {
-        background-color:transparent;
-        padding-bottom: 30px;
+        padding-bottom: 5px;
         padding-top: 30px;
+        border-bottom: 1px solid #1B5862;
+    }
+
+    .navbar-transparent{
+        background-color: transparent;
+        border-bottom: 0;
     }
 
     .navbar-default .navbar-nav > .active > a {
@@ -393,7 +402,7 @@ section#longer-insights .rectangle {
     section#longer-insights .rectangle {
         margin-bottom: 50px;
     }
-    
+
     h3.longer-title {
         font-size: 22px;
     }
