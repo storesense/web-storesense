@@ -377,10 +377,6 @@ section#longer-insights .rectangle {
 }
 
 @media (min-width: 768px) {
-    section#longer-insights .features-heading {
-        margin-top: 50px;
-    }
-
     section#longer-insights .rectangle {
         margin-bottom: 50px;
     }
