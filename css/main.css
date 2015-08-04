@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-.text-muted{
+.text-muted {
     color: #777
 }
 
@@ -23,7 +23,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #E46425;
+    color: #e46425;
 }
 
 h1,
@@ -32,7 +32,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -45,7 +44,6 @@ h6 {
     color:#fff;
     background-color:#D1541a;
     border-color:#d1541a;
-    font-family:'Open Sans',sans-serif;
     text-transform:uppercase;
     font-weight:600;
     border-radius:6px;
@@ -90,7 +88,6 @@ h6 {
 
 /* Menu line */
 .navbar-default .nav li a {
-    font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 600;
     color: #20555F;
@@ -190,7 +187,6 @@ section#features {
 
 /* Headings for features, followed by small rectangles */
 section h2.features-heading {
-    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     font-size: 22px;
     color: #1C5D6C;
@@ -247,7 +243,6 @@ section#insights {
 
 /* properties for two paragraphs in first section of features */
 p.features-big-data {
-    font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 12px;
     font-weight: 500;
@@ -257,7 +252,6 @@ p.features-big-data {
 /* callout properties */
 .callout {
     color: #FFB301;
-    font-family: "Open Sans", sans-serif;
     text-align: center;
     letter-spacing: -1px;
 }
@@ -292,7 +286,6 @@ h3.callout-not-first {
 /* properties for titles and paragraphs in second section of features */
 section h4.insights {
     font-size: 18px;
-    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     text-transform: capitalize;
     letter-spacing: -1px;
@@ -363,7 +356,6 @@ section#longer-insights .features-heading {
 
 h3.longer-title {
     font-size: 16px;
-    font-family: "Open Sans", sans-serif;
     padding-top: 20px;
     text-align: center;
     color: #fff;
@@ -417,7 +409,6 @@ section h2.contact-heading {
 
 section h3.contact-subheading {
     font-size: 12px;
-    font-family: "Open Sans", sans-serif;
     text-transform: none;
     font-style: italic;
     font-weight: 300;
@@ -435,7 +426,6 @@ section#contact .contact-heading{color:#fff}
 .hs-form-field {
     padding-bottom: 20px;
     width: 100%;
-    font-family: 'Open Sans', sans-serif;
     color:#fff;
 }
 
@@ -453,7 +443,6 @@ section#contact .contact-heading{color:#fff}
     color: #fff;
     background-color: #D1541a;
     border-color: #d1541a;
-    font-family:'Open Sans', sans-serif;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 6px;
@@ -496,7 +485,6 @@ footer {
 
 footer span.copyright {
     line-height: 40px;
-    font-family: 'Open Sans', sans-serif;
     text-transform:none;
 }
 
