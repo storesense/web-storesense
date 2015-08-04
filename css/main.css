@@ -177,7 +177,7 @@ header .intro-text {
 /* ---------- SECTIONS BASE ---------- */
 
 section {
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 @media (min-width: 768px){
@@ -333,7 +333,8 @@ section#longer-insights .features-heading {
 }
 
 .rect {
-    margin-bottom: 0;
+    border-right-style: solid;
+    border-right-width: 2px;
 }
 
 #nw-rect {
@@ -345,20 +346,17 @@ section#longer-insights .features-heading {
     background: #4d8993;
     border-left-color: #9bbac0;
     border-right-color: #fff;
-    margin-top: -20px;
 }
 
 #sw-rect {
     background: #76acb2;
     border-right-color: #bed8da;
-    margin-top: -30px;
 }
 
 #se-rect {
     background: #91bfc1;
     border-right-color: #fff;
     border-left-color: #bed8da;
-    margin-top: -20px;
 }
 
 h3.longer-title {
@@ -374,21 +372,7 @@ section#longer-insights .rectangle {
 
 @media (min-width: 992px) {
     .rect {
-        border-right-style: solid;
-        border-right-width: 2px;
         height: 200px;
-    }
-
-    #ne-rect {
-        margin-top: 0;
-    }
-
-    #sw-rect {
-        margin-top: 0;
-    }
-
-    #se-rect {
-        margin-top: 0;
     }
 }
 
@@ -400,7 +384,7 @@ section#longer-insights .rectangle {
     section#longer-insights .rectangle {
         margin-bottom: 50px;
     }
-    
+
     h3.longer-title {
         font-size: 22px;
     }
