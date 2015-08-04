@@ -4,7 +4,7 @@ body {
 }
 
 .text-muted {
-    color: #777
+    color: #777;
 }
 
 p {
@@ -41,14 +41,21 @@ h6 {
 }
 
 .btn-xl {
-    color:#fff;
-    background-color:#D1541a;
-    border-color:#d1541a;
-    text-transform:uppercase;
-    font-weight:600;
-    border-radius:6px;
-    font-size:12px;
-    padding:15px 40px
+    color: #fff;
+    background-color: #d1541a;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 15px 40px;
+}
+
+.btn-xl:hover,
+.btn-xl:focus,
+.btn-xl:active,
+.btn-xl.active {
+    background-color: #e7e7e7;
+    color: #333;
 }
 
 @media (min-width:768px) {
@@ -90,7 +97,7 @@ h6 {
 .navbar-default .nav li a {
     text-transform: uppercase;
     font-weight: 600;
-    color: #20555F;
+    color: #20555f;
     font-size: 13px;
 }
 
@@ -101,12 +108,6 @@ h6 {
 }
 
 .navbar-default .navbar-nav > .active > a {
-    color: #fff;
-    background-color: #d1541a;
-}
-
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav >. active > a:focus {
     color: #fff;
     background-color: #d1541a;
 }
@@ -137,14 +138,14 @@ h6 {
     }
 
     .navbar-default .navbar-nav > .active > a {
-        border-radius:3px;
+        border-radius: 3px;
     }
 
     .navbar-default.navbar-shrink {
-        background-color:#65B5C3;
+        background-color: #65b5c3;
         padding-top: 30px;
         padding-bottom: 5px;
-        border-bottom: 1px solid #1B5862;
+        border-bottom: 1px solid #1b5862;
     }
 
     .navbar-default .navbar-brand img {
@@ -153,8 +154,8 @@ h6 {
     }
 
     .navbar-default .nav li a {
-        font-weight:700;
-        font-size:14px;
+        font-weight: 700;
+        font-size: 14px;
     }
 }
 
@@ -176,7 +177,7 @@ header .intro-text {
     padding-bottom: 40px;
 }
 
-/* ---------- Padding between sections ---------- */
+/* ---------- SECTIONS BASE ---------- */
 
 section {
     padding: 70px 0;
@@ -198,7 +199,7 @@ section#features {
 section h2.features-heading {
     font-weight: 600;
     font-size: 22px;
-    color: #1C5D6C;
+    color: #1c5d6c;
     letter-spacing: -2px;
     text-transform: none;
 }
@@ -211,7 +212,7 @@ section#insights h2.features-heading {
 .rectangle {
     width: 90px;
     height: 5px;
-    background: #1C5D6C;
+    background: #1c5d6c;
     margin-right: auto;
     margin-left: auto;
     margin-top: 15px;
@@ -232,7 +233,7 @@ section#insights .rectangle {
 
 /* Second feature body */
 section#insights {
-    background: #65B5C3 no-repeat center;
+    background: #65b5c3 no-repeat center;
     margin-top: 30px;
     color: #fff;
 }
@@ -260,7 +261,7 @@ p.features-big-data {
 
 /* callout properties */
 .callout {
-    color: #FFB301;
+    color: #ffb301;
     text-align: center;
     letter-spacing: -1px;
 }
@@ -339,27 +340,27 @@ section#longer-insights .features-heading {
 }
 
 #nw-rect {
-    background: #336E7B;
-    border-right-color: #9BBAC0;
+    background: #336e7b;
+    border-right-color: #9bbac0;
 }
 
 #ne-rect {
-    background: #4D8993;
-    border-left-color: #9BBAC0;
+    background: #4d8993;
+    border-left-color: #9bbac0;
     border-right-color: #fff;
     margin-top: -20px;
 }
 
 #sw-rect {
-    background: #76ACB2;
-    border-right-color: #BED8DA;
+    background: #76acb2;
+    border-right-color: #bed8da;
     margin-top: -30px;
 }
 
 #se-rect {
-    background: #91BFC1;
+    background: #91bfc1;
     border-right-color: #fff;
-    border-left-color: #BED8DA;
+    border-left-color: #bed8da;
     margin-top: -20px;
 }
 
@@ -402,7 +403,7 @@ section#longer-insights .rectangle {
     section#longer-insights .rectangle {
         margin-bottom: 50px;
     }
-
+    
     h3.longer-title {
         font-size: 22px;
     }
@@ -426,53 +427,9 @@ section h3.contact-subheading {
 }
 
 section#contact {
-    background: #1C5D6C no-repeat center;
+    background: #1c5d6c no-repeat center;
 }
 section#contact .contact-heading{color:#fff}
-
-/** hs-form-field hs_submit **/
-
-.hs-form-field {
-    padding-bottom: 20px;
-    width: 100%;
-    color:#fff;
-}
-
-.hs-input {
-    width: 100%;
-    color: #555;
-    background-color: #fff;
-    background-image: none;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    height: 40px;
-}
-
-.hs-button {
-    color: #fff;
-    background-color: #D1541a;
-    border-color: #d1541a;
-    text-transform: uppercase;
-    font-weight: 700;
-    border-radius: 6px;
-    font-size: 14px;
-    padding: 25px 50px;
-    width: 100%;
-    display: inline-block;
-    margin-bottom: 0;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    cursor: pointer;
-    background-image: none;
-    border: 1px solid transparent;
-}
-
-.hs-button:hover {
-    color: #333;
-    text-decoration: none;
-}
 
 @media (min-width:768px) {
     section h2.contact-heading {
@@ -552,7 +509,7 @@ footer img {
 
 .callout-desc {
     text-align: center;
-    color: #1C5D6C;
+    color: #1c5d6c;
     font-size:16px;
 }
 
