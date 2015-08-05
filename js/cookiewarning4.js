@@ -17,8 +17,8 @@
 //    http://dimitros.net/en/blog/complyingwiththecookielaw    
 // 
 // 3 (03-April-2013) SAH - Added a variable that allows the developer to 
-//	  select if the script redirects (as it originally did) or carry’s
-//    on (as per Dimitri’s great addition).
+//    select if the script redirects (as it originally did) or carryï¿½s
+//    on (as per Dimitriï¿½s great addition).
 // 
 // Download from http://adf.ly/IvElY
 
@@ -38,17 +38,17 @@ function getCookie(c_name) {
 function displayNotification(c_action) {
 
     // this sets the page background to semi-transparent black should work with all browsers
-    var message = "<div id='cookiewarning' >";
+    var message = "<div class='cookie-warning affix-bottom' id='cookiewarning' data-spy='affix'>";
 
     // center vert
-    message = message + "<div style='text-align:center;margin:0px;padding:10px;width:auto;background:#356E7A;color:black;font-size:90%;margin-top:80px;'>";
+    message = message + "<div style='text-align:center;margin:0px;padding:10px;width:auto;background:#1c5d6c;font-size:90%;'>";
 
     // this is the message displayed to the user.
-    message = message + "This site uses cookies to work correctly. Select I agree to permit the use of cookies or Do not agree to prevent it - but some site features may stop working.<br/>";
+    message = message + "<span style='color:white;'>This site uses cookies to work correctly. Select <em>\'I agree\'</em> to permit the use of cookies or <em>\'Do not agree\'</em> to prevent it - but some site features may stop working.</span><br>";
 
     // Displays the I agree/disagree buttons.
     // Feel free to change the address of the I disagree redirection to either a non-cookie site or a Google or the ICO web site 
-    message = message + "<br /><INPUT TYPE='button' class='btn btn-xs' VALUE='I Agree' onClick='JavaScript:doAccept();' /> <INPUT TYPE='button' class='btn btn-xs' VALUE=\"I don't agree\" onClick='JavaScript:doNotAccept("
+    message = message + "<br /><input type='button' class='btn btn-xs' value='I agree' onClick='JavaScript:doAccept();' /> <input type='button' class='btn btn-xs' value=\"I don't agree\" onClick='JavaScript:doNotAccept("
 	message = message + c_action;
 	message = message + ");' />";
 

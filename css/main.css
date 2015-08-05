@@ -467,8 +467,17 @@ footer img {
     }
 }
 
+/* ------------------ COOKIE WARNING ------------------- */
+.affix {
+    bottom: 0;
+}
 
-/* JAN ADDITIONAL */
+div.cookie-warning {
+    height: auto;
+    width: 100%;
+}
+
+/* ------------------ JAN ADDITIONAL ------------------- */
 
 .features-quote {
     font-size: 24px;
