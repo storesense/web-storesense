@@ -200,20 +200,16 @@ header .intro-text {
 /* ---------- SECTIONS BASE ---------- */
 
 section {
-    padding: 40px 0;
+    padding: 20px 0;
 }
 
 @media (min-width: 768px){
     section {
-        padding: 60px 0;
+        padding: 30px 0;
     }
 }
 
 /* ---------- FEATURES BODY PROPERTIES ---------- */
-
-section#features {
-    padding: 0;
-}
 
 /* Headings for features, followed by small rectangles */
 section h2.features-heading {
@@ -254,7 +250,6 @@ section#insights .rectangle {
 /* Second feature body */
 section#insights {
     background: #65b5c3 no-repeat center;
-    margin-top: 30px;
     color: #fff;
 }
 
@@ -350,10 +345,6 @@ section .insight-descr {
 }
 
 /* properties for third section of features */
-
-section#longer-insights .features-heading {
-    margin-top: 10px;
-}
 
 .parent-rect{
     overflow: hidden;
