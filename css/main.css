@@ -78,10 +78,13 @@ div.container.fixed-nav {
 
 
 /* ---------- NAVIGATION BAR PROPERTIES ---------- */
-
 .navbar-default {
     background-color: #65b5c3;
     border-bottom: 0;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    z-index: 10;
 }
 
 .navbar-default .navbar-collapse {
@@ -101,6 +104,11 @@ div.container.fixed-nav {
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: #d1541a;
+}
+
+.navbar-default .navbar-collapse[aria-expanded=true] .navbar-nav {
+    background-color: #65b5c3;
+    margin-top: 0;
 }
 
 /* Menu line */
@@ -138,6 +146,10 @@ div.container.fixed-nav {
 @media (min-width:768px) {
 
     .navbar-default {
+        top: 0;
+        height: 85px;
+        width: 100%;
+        z-index: 10;
         padding-bottom: 5px;
         padding-top: 30px;
     }
@@ -275,7 +287,7 @@ p.features-big-data {
 }
 
 h3.callout {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
     margin-top: 40px;
@@ -343,9 +355,15 @@ section#longer-insights .features-heading {
     margin-top: 10px;
 }
 
+.parent-rect{
+    overflow: hidden;
+}
+
 .rect {
     border-right-style: solid;
     border-right-width: 2px;
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
 }
 
 #nw-rect {
@@ -379,12 +397,6 @@ h3.longer-title {
 
 section#longer-insights .rectangle {
     margin-bottom: 10px;
-}
-
-@media (min-width: 992px) {
-    .rect {
-        height: 200px;
-    }
 }
 
 @media (min-width: 768px) {
@@ -455,6 +467,7 @@ footer a.active {
 
 footer h3 {
     padding-bottom: 10px;
+    font-size: 20px;
 }
 
 #footer .col-md-1 {
@@ -476,6 +489,10 @@ footer img {
         height: auto;
         margin-top: 5px;
     }
+
+    footer h3 {
+        font-size: 24px;
+    }
 }
 
 /* ------------------ COOKIE WARNING ------------------- */
@@ -491,12 +508,12 @@ div.cookie-warning {
 /* ------------------ JAN ADDITIONAL ------------------- */
 
 .features-quote {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 400;
 }
 
 .features-attr {
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 300;
 }
 
@@ -507,13 +524,27 @@ div.cookie-warning {
 .callout-desc {
     text-align: center;
     color: #1c5d6c;
-    font-size:16px;
+    font-size:14px;
 }
 
 .rect-maintext  {
     color: #fff;
     padding-top: 20px;
     text-align: center;
+}
+
+@media (min-width: 768px) {
+    .features-quote {
+        font-size: 24px;
+    }
+
+    .features-attr {
+        font-size: 20px;
+    }
+
+    .callout-desc {
+        font-size: 16px;
+    }
 }
 
 .btn:focus,
