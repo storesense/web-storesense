@@ -209,20 +209,12 @@ section {
     }
 }
 
-/* ---------- FEATURES BODY PROPERTIES ---------- */
-
-/* Headings for features, followed by small rectangles */
 section h2.features-heading {
     font-weight: 600;
     font-size: 22px;
     color: #1c5d6c;
     letter-spacing: -2px;
     text-transform: none;
-}
-
-/* Second feature heading */
-section#insights h2.features-heading {
-    color: #fff;
 }
 
 .rectangle {
@@ -234,23 +226,8 @@ section#insights h2.features-heading {
     margin-top: 15px;
 }
 
-.rectangle-white {
-    width: 90px;
-    height: 5px;
-    background: #fff;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 15px;
-}
-
-section#insights .rectangle {
-    background: #fff;
-}
-
-/* Second feature body */
-section#insights {
-    background: #65b5c3 no-repeat center;
-    color: #fff;
+.rectangle.white {
+    background-color: #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -266,7 +243,9 @@ section#insights {
     }
 }
 
-/* properties for two paragraphs in first section of features */
+/* ---------- SECTION - KEY BENEFITS ---------- */
+
+/* properties for two paragraphs */
 p.features-big-data {
     text-align: center;
     font-size: 12px;
@@ -308,43 +287,32 @@ h3.callout-not-first {
     }
 }
 
-/* properties for titles and paragraphs in second section of features */
-section h4.insights {
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: -1px;
+/* ---------- SECTION - CASE STUDY ------------ */
+
+section#case-study {
+    background: #65b5c3 no-repeat center;
+    color: #fff;
 }
 
-section p.insights {
-    font-size: 14px;
-    margin-bottom: 2px;
-    text-align: left;
-    font-weight: 200;
-    letter-spacing: -1px;
+section#case-study h2.features-heading {
+    color: #fff;
 }
 
-section .insight-descr {
-    margin-top: 30px;
+section#case-study .rectangle {
+    background: #fff;
+}
+
+/* ----------- SECTION - KEY FEATURES */
+
+section#key-features .rectangle {
+    margin-bottom: 10px;
 }
 
 @media (min-width: 768px) {
-    section h4.insights {
-        font-size: 20px;
-        font-weight: 700;
-    }
-
-    section p.insights {
-        font-size: 14px;
-        margin-bottom: 4px;
-    }
-
-    section .insight-descr {
-        margin-top: 50px;
+    section#key-features .rectangle {
+        margin-bottom: 50px;
     }
 }
-
-/* properties for third section of features */
 
 .parent-rect{
     overflow: hidden;
@@ -386,15 +354,7 @@ h3.longer-title {
     color: #fff;
 }
 
-section#longer-insights .rectangle {
-    margin-bottom: 10px;
-}
-
 @media (min-width: 768px) {
-    section#longer-insights .rectangle {
-        margin-bottom: 50px;
-    }
-
     h3.longer-title {
         font-size: 22px;
     }
@@ -402,28 +362,19 @@ section#longer-insights .rectangle {
 
 /* ---------- CONTACT PROPERTIES ---------- */
 
-section h2.contact-heading {
+section#contact h2 {
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 15px;
-}
-
-section h3.contact-subheading {
-    font-size: 12px;
-    text-transform: none;
-    font-style: italic;
-    font-weight: 300;
-    margin-bottom: 50px;
-    color: white;
+    color:#fff
 }
 
 section#contact {
     background: #1c5d6c no-repeat center;
 }
-section#contact .contact-heading{color:#fff}
 
 @media (min-width:768px) {
-    section h2.contact-heading {
+    section#contact h2 {
         font-size: 30px;
         letter-spacing: -1px;
     }
