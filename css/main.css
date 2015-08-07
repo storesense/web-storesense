@@ -302,6 +302,26 @@ section#case-study .rectangle {
     background: #fff;
 }
 
+section#case-study a {
+    color: #d1541a; 
+}
+
+section#case-study a:hover, 
+section#case-study a:focus,
+section#case-study a:active,
+section#case-study a.active {
+    color: #ffb301;
+}
+
+section#case-study .casestudy-cta {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+section#case-study .casestudy-desc {
+    font-size: 18px;
+}
+
 /* ----------- SECTION - KEY FEATURES */
 
 section#key-features .rectangle {
@@ -459,9 +479,7 @@ div.cookie-warning {
     font-weight: 300;
 }
 
-.casestudy-cta {
-    padding-top: 20px;
-}
+
 
 .callout-desc {
     text-align: center;
