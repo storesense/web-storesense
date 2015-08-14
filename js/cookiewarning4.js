@@ -44,13 +44,11 @@ function displayNotification(c_action) {
     message = message + "<div style='text-align:center;margin:0px;padding:10px;width:auto;background:#1c5d6c;font-size:90%;'>";
 
     // this is the message displayed to the user.
-    message = message + "<span style='color:white;'>This site uses cookies to work correctly. You can find details in our <a href='/cookie_policy.html'>cookie policy</a>. Select <em>\'I agree\'</em> to permit the use of cookies or <em>\'Do not agree\'</em> to prevent it - but some site features may stop working.</span><br>";
+    message = message + "<span style='color:white;'>We use cookies to give you the best browsing experience and to provide you with relevant content and advertising. By continuing to use our website you are accepting our use of cookies as described in our <a href='/cookie_policy.html'>Cookie Policy</a> for more details.</span><br>";
 
     // Displays the I agree/disagree buttons.
     // Feel free to change the address of the I disagree redirection to either a non-cookie site or a Google or the ICO web site 
-    message = message + "<br /><input type='button' class='btn btn-xs' value='I agree' onClick='JavaScript:doAccept();' /> <input type='button' class='btn btn-xs' value=\"I don't agree\" onClick='JavaScript:doNotAccept("
-	message = message + c_action;
-	message = message + ");' />";
+    message = message + "<br /><input type='button' class='btn btn-xs' value='Continue' onClick='JavaScript:doAccept();' />"
 
     // and this closes everything off.
     message = message + "</div></div>";
