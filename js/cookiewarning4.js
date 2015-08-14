@@ -44,7 +44,7 @@ function displayNotification(c_action) {
     message = message + "<div style='text-align:center;margin:0px;padding:10px;width:auto;background:#1c5d6c;font-size:90%;'>";
 
     // this is the message displayed to the user.
-    message = message + "<span style='color:white;'>We use cookies to give you the best browsing experience and to provide you with relevant content and advertising. By continuing to use our website you are accepting our use of cookies as described in our <a href='/cookie_policy.html'>Cookie Policy</a> for more details.</span><br>";
+    message = message + "<span style='color:white;'>We use cookies to give you the best browsing experience and to provide you with relevant content. By continuing to use our website you are accepting our use of cookies as described in our <a href='/cookie_policy.html'>Cookie Policy</a> for more details.</span><br>";
 
     // Displays the I agree/disagree buttons.
     // Feel free to change the address of the I disagree redirection to either a non-cookie site or a Google or the ICO web site 
