@@ -465,8 +465,8 @@ footer img {
 div.cookie-warning {
     height: auto;
     width: 100%;
+    background-color: #2E2E2E;
 }
-
 /* ------------------ JAN ADDITIONAL ------------------- */
 
 .features-quote {
