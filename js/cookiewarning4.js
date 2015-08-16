@@ -35,11 +35,10 @@ function getCookie(c_name) {
 }
 
 
-
 function displayNotification(c_action) {
 
     // this sets the page background to semi-transparent black should work with all browsers
-    var message = "<div class='cookie-warning affix-bottom' id='cookiewarning' data-spy='affix'>";
+    var message = "<div class='cookie-warning' id='cookiewarning'>";
 
     // center vert
     message = message + "<div style='text-align:center;margin:0px;padding:10px;width:auto;font-size:11px;'>";
