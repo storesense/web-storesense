@@ -74,6 +74,7 @@ section#insights {
 
     .navbar-transparent.navbar-shrink {
         background-color: #fff;
+        border-bottom: 0px;
         opacity: 0.8;
     }
 
