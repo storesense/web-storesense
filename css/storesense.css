@@ -64,7 +64,20 @@ section#insights {
     padding-bottom: 20px;
 }
 
+.navbar-default .navbar-collapse[aria-expanded=true] .navbar-nav {
+    background-color: #fff;
+    margin-top: 0;
+}
 
+@media (min-width:768px) {
+
+
+    .navbar-transparent.navbar-shrink {
+        background-color: #fff;
+        opacity: 0.8;
+    }
+
+}
 
 
 
