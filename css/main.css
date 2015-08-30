@@ -400,6 +400,19 @@ section#contact {
     }
 }
 
+/* ---------- SECTION - AS SEEN ON ---------- */
+
+.pr_icon {
+    padding-right: 20px;
+}
+
+.pr_icons {
+    padding-top: 50px;
+}
+section#as-seen-on img {
+    padding-top: 50px; padding-right: 50px;
+}
+
 /* ---------- FOOTER PROPERTIES ---------- */
 
 footer {
