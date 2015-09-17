@@ -293,6 +293,10 @@ section#case-study {
     background: #65b5c3 no-repeat center;
     color: #fff;
 }
+section#case-study .row {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 
 section#case-study h2.features-heading {
     color: #fff;
@@ -320,6 +324,55 @@ section#case-study .casestudy-cta {
 
 section#case-study .casestudy-desc {
     font-size: 18px;
+}
+
+
+/* ---------- SECTION - WHITEPAPER LINK ------------ */
+
+section#whitepaper-link .padded-row {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+section#whitepaper-link {
+    background: #80CBD2 no-repeat center;
+    color: #fff;
+}
+
+section#whitepaper-link h2.features-heading {
+    color: #fff;
+}
+
+section#whitepaper-link .rectangle {
+    background: #fff;
+}
+
+section#whitepaper-link a {
+    color: #d1541a; 
+}
+
+section#whitepaper-link a:hover, 
+section#whitepaper-link a:focus,
+section#whitepaper-link a:active,
+section#whitepaper-link a.active {
+    color: #ffb301;
+}
+
+section#whitepaper-link .casestudy-cta {
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+section#whitepaper-link .casestudy-desc {
+    font-size: 18px;
+}
+
+.whitepaper-icon {
+    height: 90px;
+}
+section#whitepaper-link p {
+    color: #1c5d6c;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 /* ----------- SECTION - KEY FEATURES */
@@ -484,12 +537,11 @@ div.cookie-warning {
 /* ------------------ JAN ADDITIONAL ------------------- */
 
 .features-quote {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
 }
 
 .features-attr {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -511,11 +563,11 @@ div.cookie-warning {
 
 @media (min-width: 768px) {
     .features-quote {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .features-attr {
-        font-size: 20px;
+        font-size: 14px;
     }
 
     .callout-desc {
