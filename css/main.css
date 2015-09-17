@@ -375,6 +375,15 @@ section#whitepaper-link p {
     padding-bottom: 10px;
 }
 
+@media (min-width: 1200px) {
+        section#whitepaper-link .whitepaper-text {
+            border-right: solid #fff; 
+            border-width: 1px;
+        }
+    }
+
+
+
 /* ----------- SECTION - KEY FEATURES */
 
 section#key-features .rectangle {
