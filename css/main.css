@@ -55,6 +55,15 @@ h6 {
 .btn-xl:active,
 .btn-xl.active {
     color: #333;
+    background-color: #e7e7e7;
+    text-decoration: none;
+}
+
+a.btn-blue {
+    background-color: #1c5d6c;
+    padding: 15px 27px;
+    border-radius: 4px;
+    font-size: 12px;
 }
 
 div.container.fixed-nav {
@@ -326,13 +335,8 @@ section#case-study .casestudy-desc {
     font-size: 18px;
 }
 
-
 /* ---------- SECTION - WHITEPAPER LINK ------------ */
 
-section#whitepaper-link .padded-row {
-    padding-top: 30px;
-    padding-bottom: 60px;
-}
 section#whitepaper-link {
     background: #80CBD2 no-repeat center;
     color: #fff;
@@ -346,43 +350,23 @@ section#whitepaper-link .rectangle {
     background: #fff;
 }
 
-section#whitepaper-link a {
-    color: #d1541a; 
-}
-
-section#whitepaper-link a:hover, 
-section#whitepaper-link a:focus,
-section#whitepaper-link a:active,
-section#whitepaper-link a.active {
-    color: #ffb301;
-}
-
-section#whitepaper-link .casestudy-cta {
-    padding-top: 20px;
-    font-size: 18px;
-}
-
-section#whitepaper-link .casestudy-desc {
-    font-size: 18px;
-}
-
-.whitepaper-icon {
+section#whitepaper-link img.whitepaper-icon {
     height: 90px;
+    margin-top: 30px;
 }
+
 section#whitepaper-link p {
     color: #1c5d6c;
     padding-top: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 @media (min-width: 1200px) {
-        section#whitepaper-link .whitepaper-text {
-            border-right: solid #fff; 
-            border-width: 1px;
-        }
+    section#whitepaper-link .whitepaper-text {
+        border-right: solid #fff;
+        border-width: 1px;
     }
-
-
+}
 
 /* ----------- SECTION - KEY FEATURES */
 
@@ -553,8 +537,6 @@ div.cookie-warning {
     font-size: 14px;
     font-weight: 300;
 }
-
-
 
 .callout-desc {
     text-align: center;
