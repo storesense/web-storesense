@@ -59,6 +59,26 @@ h6 {
     text-decoration: none;
 }
 
+.btn-l {
+    color: #fff;
+    background-color: #d1541a;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 27px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.btn-l:hover,
+.btn-l:focus,
+.btn-l:active,
+.btn-l.active {
+    color: #333;
+    background-color: #e7e7e7;
+    text-decoration: none;
+}
+
+
 a.btn-blue {
     background-color: #1c5d6c;
     padding: 15px 27px;
@@ -370,6 +390,41 @@ section#whitepaper-link p {
 
 /* ----------- SECTION - KEY FEATURES */
 
+
+section#key-features .feature-mockup {
+    max-height: 300px;
+}
+
+section#key-features .feature-background {
+    background: #336e7b;
+}
+
+section#key-features .feature-images {
+    text-align: center;
+    margin: 20px;
+}
+
+section#key-features .features-cta {
+    text-align: left;
+}
+
+section#key-features .feature-desc {
+    text-align: left;
+    font-size:16px;
+    color: #1c5d6c;
+}
+section#key-features h4 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color: #1c5d6c;
+}
+
+section#key-features p {
+
+    padding-bottom: 20px;
+
+}
+
 section#key-features .rectangle {
     margin-bottom: 10px;
 }
@@ -529,12 +584,15 @@ div.cookie-warning {
 
 /* ------------------ JAN ADDITIONAL ------------------- */
 
+
 .features-quote {
     font-size: 16px;
+    font-style: italic;
+    font-weight: 300;
 }
 
 .features-attr {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
 }
 
@@ -554,7 +612,7 @@ div.cookie-warning {
 
 @media (min-width: 768px) {
     .features-quote {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .features-attr {
